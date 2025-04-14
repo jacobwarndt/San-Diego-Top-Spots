@@ -6,9 +6,12 @@ $(document).ready(function() {
                     <td>${spot.name}</td>
                     <td>${spot.description}</td>
                     <td>
-                        <a href="https://www.google.com/maps?q=${spot.location[0]},${spot.location[1]}" target="_blank">Open in Google Maps</a>
+                        <a href="https://www.google.com/maps?q=${spot.location[0]},${spot.location[1]}" target="_blank">
+                        Open in Google Maps
+                        </a>
                     </td>
-                </tr>`;
+                </tr>
+                `;
             $('#top-spots').append(row);
         });
     });
